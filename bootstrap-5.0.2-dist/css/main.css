@@ -1,0 +1,132 @@
+body {
+  font-family: lato;
+}
+
+/*untuk header*/
+.main-nav {
+  background-color: #03045e;
+}
+
+.main-nav .navbar-nav a.nav-link {
+  color: white;
+  font-weight: 500;
+}
+
+.main-nav .navbar-nav a.nav-link.active,
+.main-nav .navbar-nav a.nav-link:hover {
+  color: #caf0f8;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  transition: background-color 0.9 ease;
+}
+
+.navbar.scrolled a.nav-link {
+  color: black;
+}
+
+.banner {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../img/p2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.banner-content {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 50px;
+}
+.banner p {
+  font-size: 50px;
+}
+
+button.btn-primary {
+  background-color: #03045e;
+  color: white;
+}
+
+button a.btn-product {
+  text-decoration: none;
+  color: white;
+}
+
+.pKiri,
+.pKanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 4s;
+}
+
+.pKanan {
+  transform: translate(50px, 0);
+}
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.head-product h2 {
+  margin-top: 45px;
+  font-weight: 500;
+}
+
+.product-judul {
+  color: #999;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.tabel-product p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.detail-tabel {
+  color: #999;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 1px;
+}
+
+.tabel-product h2 {
+  font-weight: 500;
+}
+
+.img {
+  padding-left: 30px;
+}
+
+.logo-desc p,
+.logo-desc ul li,
+.logo-desc h3 {
+  color: white;
+}
+
+.main-footer-menu img {
+  max-width: 150px;
+}
+
+.logo-desc ul li {
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.color-footer {
+  background-color: black;
+  color: white;
+}
+
+.btn-css {
+  margin-bottom: 20px;
+}
